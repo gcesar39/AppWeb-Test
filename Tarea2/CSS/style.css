@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+	width: 33.33%;
+	height: 700px;
+	float: left;
+}
+
+/*--------------------------------C1*/
+.c1 {
+	background-color: DodgerBlue;
+	position:relative;
+}
+
+.c1>p {
+	background-color: red;
+	width: 40%;
+	height: 50px;
+}
+
+.c1>p:nth-child(1) {
+	position: absolute;
+	top: -16px;
+	left: 0px;
+}
+
+.c1>p:nth-child(2) {
+	position: absolute;
+	top: -16px;
+	right: 0px;
+}
+
+.c1>p:nth-child(3) {
+	position: absolute;
+	top: 275px;
+	right: 30%;
+}
+
+.c1>p:nth-child(4) {
+	position: absolute;
+	bottom: -16px;
+	left: 0px;
+}
+
+.c1>p:nth-child(5) {
+	position: absolute;
+	bottom: -16px;
+	right: 0px;
+}
+
+/*--------------------------------C2*/
+.c2 {
+	background-color: Lime;
+	overflow: auto;
+}
+
+.c2:hover {
+	color: red;
+}
+
+.c2:active {
+	color: white;
+}
+
+.c2>p {
+	background-color: transparent;
+	width: 50%;
+	padding: 10px;
+	float: left;
+}
+
+.c2>p:nth-child(4) {
+	clear: right;
+	width: 100%;
+}
+
+.c2>p:nth-child(7) {
+	clear: right;
+	width: 100%;
+}
+
+/*--------------------------------C3*/
+.c3 {
+	background-color: Tomato;
+	position:relative;
+}
+
+.c3>p {
+	background-color: white;
+	width: 60%;
+	height: 300px;
+}
+
+.c3>p:nth-child(1) {
+	position: absolute;
+	top: -16px;
+	right: 0px;
+	background-image: url('http://www.customercarephonenumber.in/wp-content/uploads/2014/07/Xiaomi-Logo-300x300.png');
+	background-position: top center;  
+}
+
+.c3>p:nth-child(1):hover {
+	background-image: url('https://dhb3yazwboecu.cloudfront.net/480/bf/m/xiaomi_mi5_exclusive_01.jpg');
+	background-position: top center;
+}
+
+.c3>p:nth-child(1):active {
+	background-image: url('https://www.widgetcity.com.ph/wp-content/uploads/2016/03/Xiaomi-mi5-White-300x300.jpg');
+	background-position: top center;
+}
+
+.c3>p:nth-child(2) {
+	position: absolute;
+	bottom: -16px;
+	background-image: url('https://lh3.googleusercontent.com/5O7YQPZcBBdSRaTP4YxexRJ2X6hF8sd76K1yBZR5mCvgnyGA4WGXSfHw4osdV_VBJw=w300');
+	background-position: top center;
+}
+
+.c3>p:nth-child(2):hover {
+	background-image: url('https://roams.es/c/wp-content/uploads/2016/07/pvm_xiaomi-mi-pad-2-silver-01_13955_1457089769-300x300.jpg');
+	background-position: top center;
+}
+
+.c3>p:nth-child(2):active {
+	background-image: url('https://imgix.ttcdn.co/i/product/original/0/547051-5c31b533fe664a9bb6cfaedc3dba3a3d.jpeg?w=300&q=75&auto=format%2Ccompress&fm=jpeg');
+	background-position: top center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
